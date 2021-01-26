@@ -1632,7 +1632,7 @@ $aside-menu-config: (
 				default: (
 					// Container
 					self: (
-						bg-color: get($layout-themes, dark)
+						bg-color: #494949
 					),
 
 					// Item
@@ -1653,21 +1653,30 @@ $aside-menu-config: (
 							self: (
 								bg-color: (
 									default: transparent,
-									open: #1b1b28,
-									here: #1b1b28,
-									active: #1b1b28,
-									hover: #1b1b28
+									//open: #1b1b28,
+									//here: #1b1b28,
+									//active: #1b1b28,
+									//hover: #1b1b28
+									open: #2b2b2b,
+									here: #2b2b2b,
+									active: #2b2b2b,
+									hover: #2b2b2b
 								)
 							),
 
 							// Icon
 							icon: (
 								font-color:	(
-									default: #494b74,
-									open: $primary,
-									here: $primary,
-									active: $primary,
-									hover: $primary
+									//default: #494b74,
+									//open: $primary,
+									//here: $primary,
+									//active: $primary,
+									//hover: $primary
+									default: #fff,
+									open: #37aa34,
+									here: #37aa34,
+									active: #37aa34,
+									hover: #37aa34
 								),
 							),
 
@@ -1675,11 +1684,15 @@ $aside-menu-config: (
 							bullet:	(
 								dot: (
 									bg-color: (
-										default: #5c5e81,
-										open: $primary,
-										here: $primary,
-										active: $primary,
-										hover: $primary
+										default: #ffffff,
+										//open: $primary,
+										//here: $primary,
+										//active: $primary,
+										//hover: $primary
+										open: #37aa34,
+										here: #37aa34,
+										active: #37aa34,
+										hover: #37aa34
 									)
 								),
 
@@ -1697,7 +1710,7 @@ $aside-menu-config: (
 							// Text
 							text:	(
 								font-color:	(
-									default: #a2a3b7,
+									default: #ffffff,
 									open: #ffffff,
 									here: #ffffff,
 									active: #ffffff,
@@ -1708,11 +1721,20 @@ $aside-menu-config: (
 							// Arrow
 							arrow:	(
 								font-color:	(
-									default: #5c5e81,
+									default: #ffffff,
 									open: #ffffff,
 									here: #ffffff,
 									active: #ffffff,
 									hover: #ffffff
+								)
+							),
+							label: (
+								font-color: (
+									default: #37aa34,
+									open: #37aa34,
+									here: #37aa34,
+									active: #37aa34,
+									hover: #37aa34
 								)
 							)
 						),
@@ -1747,10 +1769,14 @@ $aside-menu-config: (
 									self: (
 										bg-color: (
 											default: transparent,
-											open: #1b1b28,
-											here: #1b1b28,
-											active: #1b1b28,
-											hover: #1b1b28
+											//open: #1b1b28,
+											//here: #1b1b28,
+											//active: #1b1b28,
+											//hover: #1b1b28
+											open: #2b2b2b,
+											here: #2b2b2b,
+											active: #2b2b2b,
+											hover: #2b2b2b
 										)
 									),
 									// Icon
@@ -1767,11 +1793,15 @@ $aside-menu-config: (
 									bullet:	(
 										dot: (
 											bg-color: (
-												default: #5c5e81,
-												open: $primary,
-												here: $primary,
-												active: $primary,
-												hover: $primary
+												default: #ffffff,
+												//open: $primary,
+												//here: $primary,
+												//active: $primary,
+												//hover: $primary
+												open: #37aa34,
+												here: #37aa34,
+												active: #37aa34,
+												hover: #37aa34
 											)
 										),
 										line: (
@@ -1787,7 +1817,7 @@ $aside-menu-config: (
 									// Text
 									text: (
 										font-color:	(
-											default: #9899ac,
+											default: #ffffff,
 											open: #ffffff,
 											active: #ffffff,
 											hover: #ffffff
@@ -1796,12 +1826,21 @@ $aside-menu-config: (
 									// Arrow
 									arrow:	(
 										font-color:	(
-											default: #5c5e81,
+											default: #ffffff,
 											open: #ffffff,
 											here: #ffffff,
 											active: #ffffff,
 											hover: #ffffff
 										)
+									)
+								),
+								label: (
+									font-color: (
+										default: #37aa34,
+										open: #37aa34,
+										here: #37aa34,
+										active: #37aa34,
+										hover: #37aa34
 									)
 								)
 							),
@@ -1809,16 +1848,19 @@ $aside-menu-config: (
 							// Section
 							section: (
 								text: (
-									font-color: #4c4e6f
+									font-color: #9b9ea0
+									//font-color: #4c4e6f
 								),
 								icon: (
-									font-color: #4c4e6f
+									font-color: #9b9ea0
+									//font-color: #4c4e6f
 								)
 							),
 
 							// Separator
 							separator: (
-								border: 1px solid #4c4e6f
+								border: 1px solid #9b9ea0
+								//border: 1px solid #4c4e6f
 							)
 						)
 					),
@@ -1826,17 +1868,20 @@ $aside-menu-config: (
 					// Section
 					section: (
 						text: (
-							font-color: #4c4e6f
+							//font-color: #4c4e6f
+							font-color: #9b9ea0
 						),
 
 						icon: (
-							font-color: #4c4e6f
+							//font-color: #4c4e6f
+							font-color: #9b9ea0
 						)
 					),
 
 					// Separator
 					separator: (
-						border: 1px solid #4c4e6f
+						//border: 1px solid #4c4e6f
+						border: 1px solid #9b9ea0
 					)
 				),
 

@@ -136,6 +136,10 @@
 			}
 		}
 
+		.menu-label {
+			@include attr(color, get($item, link, label, font-color, default));
+		}
+
 		// menu item link's bullet
 		.menu-bullet {
 			&.menu-bullet-dot {

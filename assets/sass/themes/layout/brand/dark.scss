@@ -6,14 +6,20 @@
 @import "../../../init";
 
 // Variables
-$brand-bg: #1a1a27;
-$brand-icon-color: #494b74;
-$brand-icon-color-hover: $primary;
+$brand-bg: #494949;
+//$brand-bg: #1a1a27;
+//$brand-icon-color: #494b74;
+$brand-icon-color: #ffffff;
+//$brand-icon-color-hover: $primary;
+$brand-icon-color-hover: #37aa34;
 
-$header-mobile-bg: #1a1a27;
+//$header-mobile-bg: #1a1a27;
+$header-mobile-bg: #494949;
 $header-mobile-shadow: 0px 1px 9px -3px rgba(0,0,0,0.1);
-$header-mobile-icon-color: #484f66;
-$header-mobile-icon-color-hover: $primary;
+//$header-mobile-icon-color: #484f66;
+$header-mobile-icon-color: #ffffff;
+//$header-mobile-icon-color-hover: $primary;
+$header-mobile-icon-color-hover: #37aa34;
 
 // Desktop Mode
 @include media-breakpoint-up(lg) {
